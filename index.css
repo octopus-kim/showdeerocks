@@ -1,0 +1,71 @@
+/* Header Line */
+.Header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.Header #title {
+    font-size: 70px;
+}
+/* Header Line */
+
+/* Widget List */
+.Widget {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+
+    padding: 0;
+}
+.Widget .List {
+    display: block;
+
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 18px;
+    padding-left: 0;
+    padding-bottom: 2px;
+    border: black 2px solid;
+    margin: 4px;
+
+    /* change mouse pointer to finger image when mouse cursor hovers on */
+    cursor: pointer;
+    /* control speed of changing background color when mouse cursor hovers on */
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+}
+.Widget .List:hover {
+    /* status that will change when mouse cursor hovers on */
+    background-color: white;
+    color: black
+}
+.Widget #list01 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.Widget #list02 {
+
+}
+.Widget #list03 {
+
+}
+.Widget #list04 {
+
+}
+.Widget #list05 {
+
+}
+/* Widget List */
+
+/* Twitter Follow Button */
+.Twitter {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 8fr 2fr;
+
+    margin-top: 20px;
+}
+.Twitter .twitter-follow-button {
+
+}
