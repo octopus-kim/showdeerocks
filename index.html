@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>ShowTheRocks</title>
-        <link rel="stylesheet" href="index.css">
+        <title>ShowdeeRocks</title>
+        <link rel="stylesheet" href="index.css?after" type="text/css">
+        <script src="./includeHTML.js"></script>
     </head>
     <body>
         <div class="Header">
@@ -17,13 +18,38 @@
             <ul class="List" id="list05">지난 공연</ul>
         </div>
         <div class="Twitter">
-            <a href="https://twitter.com/showdee_rocks?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-               data-show-count="false">Follow @showdee_rocks</a><script async src="https://platform.twitter.com/widgets.js"
-                                                                        charset="utf-8"></script>
+            <a href="https://twitter.com/showdee_rocks?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">
+                Follow @showdee_rocks</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="Comment">
-            최근 1주일 이내에 추가되는 공연들은 파란색 글씨로 표기됩니다.
+            <div class="Left-margin"></div>
+            <div class="Comment-line">
+                최근 1주일 이내에 추가되는 공연들은 파란색 글씨로 표기됩니다.<br>
+                최근 수정일 : 2020 - 11 - 28 (토)
+            </div>
+            <div class="Right-margin"></div>
         </div>
-        <script type="text/javascript" src="index.js"></script>
+        <div class="Subtitle">
+            <div class="Left-margin"></div>
+            <div class="Subtitle-line">
+                <div class="Subtitle-content">12월</div>
+            </div>
+            <div class="Right-margin"></div>
+        </div>
+        <div class="Content">
+            <div class="Left-margin"></div>
+            <div class="Content-line">
+                <script type="text/javascript" src="includeHTML.js"></script>
+            </div>
+            <div class="Right-margin"></div>
+        </div>
+        <div class="Article">
+            <div class="Left-margin"></div>
+            <div include-html="./article.html"></div>
+            <div class="Right-margin"></div>
+        </div>
     </body>
+    <script>
+        includeHTML();
+    </script>
 </html>
